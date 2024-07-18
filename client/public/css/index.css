@@ -1,18 +1,25 @@
 body {
-	
-}
+    background-image: url("/images/campus.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh; 
+
+  }
 
 #splash_title {
 	width: 100%;
   font-size: 100px;
-  color: red;
+  color: purple;
   opacity: 0.85;
-  text-shadow: 4px 4px 4px rgba(255, 255, 255);
+  text-shadow: 4px 4px 4px white (0, 0, 0);
   text-align: center;
 }
 
 .menu_button {
-	background-color: rgba(255, 0, 0, 0.5);
+	background-color: purple;
     font-size: 28px;
     color: white;
     cursor: pointer;
